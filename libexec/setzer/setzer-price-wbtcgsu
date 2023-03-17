@@ -3,10 +3,18 @@ set -e
 pair=wbtcgsu
 sources=(
 gsu
+gsu1
+gsu2
 )
 
 case $1 in
    gsu) {
+    setzer x-price "$1" "WBTC"
+      };;
+  gsu1) {
+    setzer x-price "$1" "WBTC"
+      };;
+  gsu2) {
     setzer x-price "$1" "WBTC"
       };;
 
